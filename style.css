@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.bg
+{
+    background-color: rgb(0, 119, 255);
+}
+.static
+{
+    font-size: 70px;
+}
+.Email
+{
+    margin-left: 340px;
+}
+.live
+{
+    height: 40px;
+    width: 110vh;
+    border-radius: 10px;
+    color: gray;
+    padding-left: 15px;
+    border-color: antiquewhite;
+    font-size: 20px;
+}
+.button
+{
+    width: 25vh;
+    height: 7vh;
+    border-radius: 7px;
+    font-size: 20px;
+    border-color: yellow;
+    background-color: yellow;
+}
+.png
+{
+    width: 70px;
+    padding-left: 10px;
+}

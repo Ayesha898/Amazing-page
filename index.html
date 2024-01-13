@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notify! page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body class="bg">
+    <div id="Notify">
+        <div class="text-center mt-5">
+            <img src="images/logo1 (1).png" class="logo" width="150">
+        </div>
+        <div class="text-center text-light mt-1">
+            <h1 class="static">We are coming soon</h1>
+            <h5>We are almost there! If you want to get notified when the website goes live, <br> subscribe you over the
+                mailing list!</h5>
+        </div>
+        <div class="Email mt-5">
+            <input type="email" id="emailInput" placeholder="Email address" class="live">
+        </div>
+    </div>
+
+    <div class="mt-5 text-center">
+        <button class="button" id="notifyButton">Notify!</button>
+    </div>
+
+    <div class="text-center mt-4">
+        <img src="images/facebook.png" alt="facebook" class="png">
+        <img src="images/Pinterest.png" alt="Pinterest" class="png">
+        <img src="images/twiter.png" alt="twiter" class="png">
+        <img src="images/Utube.png" alt="Utube" class="png">
+    </div>
+
+    <script>
+        document.getElementById('notifyButton').addEventListener('click', function () {
+            var email = document.getElementById('emailInput').value;
+            alert("Email entered: " + email);
+            // You can add the logic to redirect to the next email page here
+        });
+    </script>
+</body>
+
+</html>
